@@ -3,7 +3,7 @@ import {
     StyleSheet,
 } from "react-native";
 import Header from "../components/header"
-import QuoteOfTheDay from "../components/qouteapi";
+import QuoteOfTheDay from "../components/quoteapi";
 import { BlurView } from 'expo-blur';
 
 function InterfacePage() {

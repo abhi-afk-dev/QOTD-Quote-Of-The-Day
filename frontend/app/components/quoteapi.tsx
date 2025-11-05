@@ -24,11 +24,11 @@ const getRandomGrayColor = () => {
   for (let i = 0; i < 2; i++) {
     value += letters[Math.floor(Math.random() * 16)];
   }
-  return `#${value}${value}`;
+  return `#${value}${value}${value}`;
 };
 
-const generateRandomGrayGradient = (): [string, string] => {
-  return [getRandomGrayColor(), getRandomGrayColor()];
+const generateRandomGrayGradient = (): [string, string, string] => {
+  return [getRandomGrayColor(), getRandomGrayColor(), getRandomGrayColor()];
 };
 
 export default function QuoteOfTheDay() {

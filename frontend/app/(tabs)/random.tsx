@@ -3,10 +3,10 @@ import {
     StyleSheet,
 } from "react-native";
 import Header from "../components/header"
-import QuoteOfTheDay from "../components/randomQoute";
+import QuoteOfTheDay from "../components/randomQuote";
 import { BlurView } from 'expo-blur';
 
-function InterfacePage() {
+function RandomPage() {
 
     return (
         <View style={stylesDark.container}>
@@ -23,7 +23,7 @@ function InterfacePage() {
     );
 }
 
-export default InterfacePage;
+export default RandomPage;
 
 // --- STYLES ---
 const stylesDark = StyleSheet.create({

@@ -2,8 +2,8 @@ import React, { useState, useCallback } from 'react';
 import { View, Text, FlatList, StyleSheet, SafeAreaView } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useFocusEffect } from 'expo-router';
-import { QuoteData } from '../components/qouteapi';
-import Header from '../components/header';  
+import { QuoteData } from '../components/quoteapi';
+import Header from '../components/header';
 const FAVORITES_KEY = 'favorite_quotes';
 
 export default function FavoritesPage() {
@@ -29,7 +29,7 @@ export default function FavoritesPage() {
 
   return (
     <View style={styles.container}>
-        <Header/>
+      <Header />
       {favorites.length === 0 ? (
         <View style={styles.emptyContainer}>
           <Text style={styles.emptyText}>You have no favorite quotes yet.</Text>
