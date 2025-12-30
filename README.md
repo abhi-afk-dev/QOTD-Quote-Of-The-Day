@@ -67,8 +67,8 @@ QOTD/
 Follow these steps to set up and run the QOTD - Quote of the Day App locally on your device.
 
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/QOTD.git
-cd QOTD
+git clone https://github.com/abhi-afk-dev/QOTD.git
+cd frontend
 
 
 2️⃣ Install Dependencies
